@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ZengGTTC.github.io</id>
     <title>曾老湿小破站</title>
-    <updated>2021-09-15T16:27:59.366Z</updated>
+    <updated>2021-09-15T16:49:56.942Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ZengGTTC.github.io"/>
     <link rel="self" href="https://ZengGTTC.github.io/atom.xml"/>
@@ -16,8 +16,6 @@
         <link href="https://ZengGTTC.github.io/post/tags/">
         </link>
         <updated>2021-09-15T16:13:24.000Z</updated>
-        <content type="html"><![CDATA[<p>11111111111</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello！Guitar Player]]></title>
@@ -30,18 +28,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>老湿的博客</strong> ！<br>
 ☝️  <strong>点击上方图片</strong> 看看在这里的你能在这里获得什么？</p>
-<!-- more -->
-<hr>
-<p>📝  你能在这里找到不少好的吉他资源，<strong>但是你要多来，博主更新需要时间</strong>  。</p>
-<p>🎸  老湿要教书、要写书、要录教学视频、要......跟我一起<strong>努力</strong>吧！</p>
-<p>💻  如果不能在文章中直接下载，那么资源就用<strong>百度盘</strong>发送。</p>
-<p>🎯  有十来年<strong>吉他弯路</strong>经验，有7年<strong>吉他教学经验</strong>，能<strong>一针见血</strong>指出初学者的<strong>毛病</strong>。</p>
-<p>⚔️ <strong>精通指板、CAGED系统、吉他手工具资料、平凡吉他</strong>，搭配学习视频，<strong>新手</strong>和<strong>不知如何进步者</strong>必备。</p>
-<p>🎼 买过书的朋友，如果你有想要的<strong>资源</strong>找不到，可以告诉我，我帮你找（<strong>次数不要太多，顶不住</strong>😁）。</p>
-<p>❤️  别人叫我<strong>初学拯救者</strong>，来加入我的交流群吧，初学者的<strong>天堂</strong>。</p>
-<p>🌱 当然 <strong>曾老湿</strong> 还很年轻，有很多不足，但请相信，我会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
