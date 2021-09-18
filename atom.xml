@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ZengGTTC.github.io</id>
     <title>曾老湿小破站</title>
-    <updated>2021-09-18T04:47:36.476Z</updated>
+    <updated>2021-09-18T05:11:23.914Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ZengGTTC.github.io"/>
     <link rel="self" href="https://ZengGTTC.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://ZengGTTC.github.io/images/avatar.png</logo>
     <icon>https://ZengGTTC.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 曾老湿小破站</rights>
+    <entry>
+        <title type="html"><![CDATA[伴奏]]></title>
+        <id>https://ZengGTTC.github.io/post/ban-zou/</id>
+        <link href="https://ZengGTTC.github.io/post/ban-zou/">
+        </link>
+        <updated>2021-09-18T05:04:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>😂  国内找吉他伴奏很辛苦吧。<br>
+👆  <strong>点击上方图片</strong>，来看看我这里有多说伴奏。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>😂  国内找吉他伴奏很辛苦吧。<br>
+👆  <strong>点击上方图片</strong>，来看看我这里有多说伴奏。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello！Guitar Player]]></title>
         <id>https://ZengGTTC.github.io/post/hello-gridea/</id>
