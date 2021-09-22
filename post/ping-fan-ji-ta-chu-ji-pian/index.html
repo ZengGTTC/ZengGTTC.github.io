@@ -1,168 +1,116 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
+  <head>
+    <meta charset="utf-8" >
 
-<head>
-  <meta charset="UTF-8" />
-<title>平凡吉他（初级篇） - 曾老湿小破站</title>
+<title>平凡吉他（初级篇） | 曾老湿小破站</title>
 <meta name="description" content="一个农村小学老师的吉他之路，吉他教学普度众生">
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://ZengGTTC.github.io/favicon.ico?v=1632271997358">
 
-<link type='text/css' rel='stylesheet' href='https://ZengGTTC.github.io/styles/main.css' media='screen' />
-<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
-<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<script type="text/javascript" src='https://ZengGTTC.github.io/media/scripts/jquery.js'></script>
-<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
-<script>
-    hljs.initHighlightingOnLoad();
-</script>
-</head>
-
-<body>
-  <div class="layout theme-dark">
-    <div class="layout-header">
-
-	<div class="layout-header-main">
-		<div class="container">
-			<div class="row justify-content-lg-center">
-				<div class="col-12 col-lg-9">
-
-					<div class="navbar">
-
-						<div class="logo">
-							<a href="https://ZengGTTC.github.io">
-								<img class="logo"
-									src="https://ZengGTTC.github.io/media/images/site_avatar.png?v=1632270537951"
-									alt="">
-							</a>
-						</div>
-
-						<div class="menu d-md-inline-block d-none">
-							<ul class="layout-navigation-list">
-								
-								<li class="layout-navigation-item"><a title="首页"
-										href="/">首页</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="精通指板"
-										href="https://ZengGTTC.github.io/post/jing-tong-zhi-ban">精通指板</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="CAGED系统"
-										href="https://ZengGTTC.github.io/post/caged-xi-tong">CAGED系统</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="吉他手工具资料"
-										href="https://ZengGTTC.github.io/post/ji-ta-shou-gong-ju-zi-liao">吉他手工具资料</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="平凡吉他"
-										href="https://ZengGTTC.github.io/post/ping-fan-ji-ta-chu-ji-pian">平凡吉他</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="伴奏"
-										href="https://ZengGTTC.github.io/post/ban-zou">伴奏</a>
-								</li>
-								
-							</ul>
-						</div>
-
-						<div class="item d-md-inline-block d-none">
-							<div class="search-icon">
-								<i class="fa fa-search" aria-hidden="true"></i>
-							</div>
-						</div>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://ZengGTTC.github.io/styles/main.css">
 
 
-
-						<div class="d-md-inline-block d-none">
-							<div class="search-lightbox">
-								<div class="search-body">
-
-									<form id="gridea-search-form" data-update="1632270537951" action="/search/" class="search-form">
-										<input type="text" name="q" id="s" value="" class="search-field" placeholder="请输入搜索关键词" aria-label="请输入搜索关键词" required="">
-										<button type="submit" class="submit" aria-label="Submit">
-											<i class="fa fa-search" aria-hidden="true"></i>
-										</button>
-									</form>
-
-								</div>
-							</div>
-						</div>
-
-						<div class="nav d-md-none d-inline-block">
-							<div class="trigger">
-								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
-		</div>
-	</div>
+  </head>
+  <body>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://ZengGTTC.github.io">曾老湿小破站</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://ZengGTTC.github.io/post/jing-tong-zhi-ban" class="menu">
+                精通指板
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://ZengGTTC.github.io/post/caged-xi-tong" class="menu">
+                CAGED系统
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://ZengGTTC.github.io/post/ji-ta-shou-gong-ju-zi-liao" class="menu">
+                吉他手工具资料
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://ZengGTTC.github.io/post/ping-fan-ji-ta-chu-ji-pian" class="menu">
+                平凡吉他
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://ZengGTTC.github.io/post/ban-zou" class="menu">
+                伴奏
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
 
-</div>
-    <div class="layout-collapse d-md-none">
-	<div class="layout-collapse-main">
-		<ul class="layout-collapse-list">
-			
-			<li class="layout-collapse-item"><a title="首页" href="/">首页</a></li>
-			
-			<li class="layout-collapse-item"><a title="精通指板" href="https://ZengGTTC.github.io/post/jing-tong-zhi-ban">精通指板</a></li>
-			
-			<li class="layout-collapse-item"><a title="CAGED系统" href="https://ZengGTTC.github.io/post/caged-xi-tong">CAGED系统</a></li>
-			
-			<li class="layout-collapse-item"><a title="吉他手工具资料" href="https://ZengGTTC.github.io/post/ji-ta-shou-gong-ju-zi-liao">吉他手工具资料</a></li>
-			
-			<li class="layout-collapse-item"><a title="平凡吉他" href="https://ZengGTTC.github.io/post/ping-fan-ji-ta-chu-ji-pian">平凡吉他</a></li>
-			
-			<li class="layout-collapse-item"><a title="伴奏" href="https://ZengGTTC.github.io/post/ban-zou">伴奏</a></li>
-			
-
-		</ul>
-	</div>
-</div>
-
-    <div class="layout-content">
-      <div class="layout-content-main">
-        <div class="container">
-          <div class="row justify-content-lg-center">
-            <div class="col-12 col-lg-9">
-              <div class="layout-post">
-                <div class="layout-post-body">
-                  <div class="row">
-
-                    <div class="col-12 col-lg-10">
-                      <div class="layout-post-main m-right m-md-right">
-                        <div class="layout-post-header">
-                          <h1 class="layout-post-title">平凡吉他（初级篇）</h1>
-                          <div class="layout-post-meta">
-                            <div class="item">
-                               <a href="https://ZengGTTC.github.io/tag/yuan-chuang-shu-ji/" class="post--keyword"
-                                data-title="原创书籍" data-type="post_tag" data-term-id="39">原创书籍</a>
-                              
-                            </div>
-                            <div class="item">
-                              <span>2021-09-16</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="layout-post-content">
-                          <div class="layout-post-item">
-                            
-                            <p class="with-img"><img src="https://ZengGTTC.github.io/post-images/ping-fan-ji-ta-chu-ji-pian.png"
-                                class="attachment-full size-full wp-post-image" alt="平凡吉他（初级篇）" /></p>
-                            
-                            <p>😂  看了好多视频，买了好多书都学不好吉他吧？<br>
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>平凡吉他（初级篇）</h1>
+            <p class="article-meta">
+              2021-09-16
+              
+                <a href="https://ZengGTTC.github.io/tag/yuan-chuang-shu-ji/" class="badge warning">
+                  原创书籍
+                </a>
+              
+            </p>
+            
+              <img src="https://ZengGTTC.github.io/post-images/ping-fan-ji-ta-chu-ji-pian.png" alt="平凡吉他（初级篇）">
+            
+            <div class="post-content">
+              <p>😂  看了好多视频，买了好多书都学不好吉他吧？<br>
 👆  <strong>点击上方图片</strong>，让我这本零基础入门，吉他结合乐理的教学带你飞。</p>
 <!-- more -->
 <p>🗿  这是一本零基础入门的吉他教材，以弹唱为主，指弹为辅的木吉他教材。曾经我自己就是吃了大亏，买了一堆书，都变成<strong>秘籍搜藏家</strong>了，还是学不会。我就打破所有重头来，用13年的经验写了这本教材。</p>
@@ -182,198 +130,113 @@
 <img src="https://ZengGTTC.github.io/post-images/1631764379180.png" alt="" loading="lazy"><br>
 <img src="https://ZengGTTC.github.io/post-images/1631765247869.png" alt="" loading="lazy"></p>
 
-                          </div>
-                        </div>
-                        <div class="layout-post-social">
-                          <div class="item reader">
-                            <div id="/post/ping-fan-ji-ta-chu-ji-pian/" class="leancloud-visitors view"
-                              data-flag-title="平凡吉他（初级篇）">
-                              <span class="post-meta-item-text">阅读 </span>
-                              <span class="leancloud-visitors-count"></span>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="layout-post-navigation">
-                          <div class="navigation-list">
-                            
-                          </div>
-                        </div>
-
-                        <div class="layout-comments"></div>
-                        
-                      </div>
-                    </div>
-
-                    <div class="col-12 col-lg-2 d-none d-lg-block">
-                      <div class="layout-post-sidebar">
-                        <div class="layout-sidebar-item">
-                          
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+          </article>
         </div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
       </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://ZengGTTC.github.io/images/avatar.png?v=1632271997358" class="no-responsive avatar">
+    <div class="text-muted">一个农村小学老师的吉他之路，吉他教学普度众生</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://ZengGTTC.github.io/post/ban-zou/">伴奏</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://ZengGTTC.github.io/post/ping-fan-ji-ta-chu-ji-pian/">平凡吉他（初级篇）</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://ZengGTTC.github.io/post/ji-ta-shou-gong-ju-zi-liao/">吉他手工具资料</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://ZengGTTC.github.io/post/caged-xi-tong/">CAGED系统</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://ZengGTTC.github.io/post/jing-tong-zhi-ban/">精通指板</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://ZengGTTC.github.io/post/hello-gridea/">Hello！Guitar Player</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://ZengGTTC.github.io/post/about/">Do not give up your dream!!!</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+       
+    </div>
+    <div class="row">
+      
+    </div>
+  </div>
+  <div class="paper">
+    QQ：316793632  微信：18989133114  买书交流请联系 | <a class="rss" href="https://ZengGTTC.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
     </div>
 
-    <div class="layout-totop d-none"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-    	<div class="layout-footer">
+<script type="application/javascript">
 
-		<div class="container">
-			<div class="row justify-content-lg-center">
-				<div class="col-12 col-lg-9">
-					<div class="footer">
-						<div class="row">
-							<div class="col-12 col-md-9">
-								<div class="footer-copy">
-									
-									QQ：316793632  微信：18989133114  买书交流请联系
-									<div class="footer-icp d-none d-sm-inline-block">
-										<span class="px-2">⋅</span>
-										
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3 d-none d-md-block">
-								<div class="footer-links">
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									<span class="footer-links-item">
-										<a href="316793632" target="_blank">
-											<i class="fa fa-qq" aria-hidden="true"></i>
-										</a>
-									</span>
-									
-									
-									
-									
-									
-									<span class="footer-links-item">
-										<a href="18989133114" target="_blank">
-											<i class="fa fa-weixin" aria-hidden="true"></i>
-										</a>
-									</span>
-									
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+AOS.init();
 
-	</div>
+hljs.initHighlightingOnLoad()
 
-	<script type="text/javascript" src='https://ZengGTTC.github.io/media/scripts/main.js'></script>
-	
-
-  </div>
-</body>
-<!-- 更进一步的拿来主义，这段代码及一定的 CSS 样式拷贝自 Gridea 的 Next 主题：https://github.com/hsxyhao/gridea-theme-next，😺 -->
-<script>
-  // 拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
-  window.Clipboard = (function (window, document, navigator) {
-    var textArea,
-      copy;
-
-    // 判断是不是ios端
-    function isOS() {
-      return navigator.userAgent.match(/ipad|iphone/i);
-    }
-    // 创建文本元素
-    function createTextArea(text) {
-      textArea = document.createElement('textArea');
-      textArea.value = text;
-      textArea.style.width = 0;
-      textArea.style.height = 0;
-      textArea.clientHeight = 0;
-      textArea.clientWidth = 0;
-      document.body.appendChild(textArea);
-    }
-    // 选择内容
-    function selectText() {
-      var range,
-        selection;
-
-      if (isOS()) {
-        range = document.createRange();
-        range.selectNodeContents(textArea);
-        selection = window.getSelection();
-        selection.removeAllRanges();
-        selection.addRange(range);
-        textArea.setSelectionRange(0, 999999);
-      } else {
-        textArea.select();
-      }
-    }
-
-    // 复制到剪贴板
-    function copyToClipboard() {
-      try {
-        document.execCommand("Copy")
-      } catch (err) {
-        alert("复制错误！请手动复制！")
-      }
-      document.body.removeChild(textArea);
-    }
-
-    copy = function (text) {
-      createTextArea(text);
-      selectText();
-      copyToClipboard();
-    };
-
-    return {
-      copy: copy
-    };
-  })(window, document, navigator);
-
-  function copyCode(e) {
-    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
-      let code = e.currentTarget.querySelector('code');
-      var text = code.innerText;
-      if (e.srcElement.textContent === '复制成功') {
-        console.log('复制操作频率过高');
-        return;
-      }
-      e.srcElement.textContent = '复制成功';
-      (function (elem) {
-        setTimeout(() => {
-          if (elem.textContent === '复制成功') {
-            elem.textContent = '复制代码'
-          }
-        }, 1000);
-      })(e.srcElement)
-      Clipboard.copy(text);
-    }
-  }
-
-  let pres = document.querySelectorAll('pre');
-  pres.forEach(pre => {
-    let code = pre.querySelector('code');
-    let copyElem = document.createElement('span');
-    copyElem.classList.add('copy-code');
-    copyElem.textContent = '复制代码';
-    pre.appendChild(copyElem);
-    pre.onclick = copyCode
-  })
 </script>
 
+
+
+
+  </body>
 </html>
