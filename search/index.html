@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 
 <head>
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
 <title>曾老湿小破站</title>
 <meta name="description" content="一个农村小学老师的吉他之路，吉他教学普度众生">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -19,11 +19,15 @@
 <script>
     hljs.initHighlightingOnLoad();
 </script>
+    <script src="/media/search/fuse.js"></script>
+    <script src="/media/search/ejs.min.js"></script>
+    <script src="/media/search/gridea-search.js"></script>
+    <script src="/media/search/result.ejs" type="text/ejs"></script>
 </head>
 
 <body>
-	<div class="layout theme-dark">
-		<div class="layout-header">
+    <div class="layout theme-dark">
+        <div class="layout-header">
 
 	<div class="layout-header-main">
 		<div class="container">
@@ -111,7 +115,7 @@
 	</div>
 
 </div>
-		<div class="layout-collapse d-md-none">
+        <div class="layout-collapse d-md-none">
 	<div class="layout-collapse-main">
 		<ul class="layout-collapse-list">
 			
@@ -132,68 +136,39 @@
 	</div>
 </div>
 
-		<div class="layout-content">
-			<div class="layout-content-main">
-				<div class="container">
-					<div class="row justify-content-lg-center">
-						<div class="col-12 col-lg-9">
-							<div class="layout-archive">
-								
-								
+        <div class="layout-content">
+            <div class="layout-content-main">
+                <div class="container">
+                    <div class="row justify-content-lg-center">
+                        <div class="col-12 col-lg-9">
+                            <div id="gridea-search-result" class="layout-archive">
 
-								<div class="card">
-									<div class="card-header">
-										<div class="header-content">
-											<div class="title">2021</div>
-										</div>
+                                <div class="card searching">
+                                    <div class="card-header">
+                                        <div class="header-content">
+                                            <div class="title">搜索中......</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-									</div>
-									<div class="card-body">
-										
-										
-										<div class="card-item">
-											<div class="thumb">
-												
-												<a href="https://ZengGTTC.github.io/post/hello-gridea/" style="background-image: url('http://pic1.win4000.com/wallpaper/2017-12-07/5a292a3fdd59d.jpg')"></a>
-												
-											</div>
-											<div class="list-content">
-												<div class="list-body">
-													<a class="title" href="https://ZengGTTC.github.io/post/hello-gridea/">Hello！Guitar Player</a>
-													<div class="time">2021-09-15</div>
-												</div>
-											</div>
-										</div>
-										
-										
-									</div>
-								</div>
-								
-							</div>
+                                <div class="card no-result" style="display:none">
+                                    <div class="card-header">
+                                        <div class="header-content">
+                                            <div class="title">未搜索到相关文章</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-							<div class="layout-paginator">
-								<div class="paginator row">
-									<div class="col-6">
-										
-										<a class="btn disabled btn-paginator width-100">上一页</a>
-										
-									</div>
-									<div class="col-6">
-										
-										<a class="btn disabled btn-paginator width-100">下一页</a>
-										
-									</div>
-								</div>
-							</div>
+                            </div>
 
-						</div>
-					</div>
+                        </div>
+                    </div>
 
-				</div>
-			</div>
-		</div>
+                </div>
+            </div>
+        </div>
 
-			<div class="layout-footer">
+        	<div class="layout-footer">
 
 		<div class="container">
 			<div class="row justify-content-lg-center">
@@ -253,7 +228,7 @@
 
 	<script type="text/javascript" src='https://ZengGTTC.github.io/media/scripts/main.js'></script>
 	
-	</div>
+    </div>
 </body>
 
 </html>
