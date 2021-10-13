@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ZengGTTC.github.io</id>
     <title>曾老湿小破站</title>
-    <updated>2021-10-12T16:19:13.788Z</updated>
+    <updated>2021-10-13T14:08:13.978Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ZengGTTC.github.io"/>
     <link rel="self" href="https://ZengGTTC.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://ZengGTTC.github.io/images/avatar.png</logo>
     <icon>https://ZengGTTC.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 曾老湿小破站</rights>
+    <entry>
+        <title type="html"><![CDATA[2、NUX MG300（音色文件）有官方发布的、也有国外自制音色]]></title>
+        <id>https://ZengGTTC.github.io/post/2nux-mg300yin-se-wen-jian-you-guan-fang-fa-bu-de-ye-you-guo-wai-zi-zhi-yin-se/</id>
+        <link href="https://ZengGTTC.github.io/post/2nux-mg300yin-se-wen-jian-you-guan-fang-fa-bu-de-ye-you-guo-wai-zi-zhi-yin-se/">
+        </link>
+        <updated>2021-10-13T14:00:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>革命性的白盒算法带来超真实演奏感<br>
+2010年NUX推出了TSAC技术，在国内领域将Amp建模带到一个全新的水平。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>革命性的白盒算法带来超真实演奏感<br>
+2010年NUX推出了TSAC技术，在国内领域将Amp建模带到一个全新的水平。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1、guitar rig、BIAX FX2（安装文件、音色文件）]]></title>
         <id>https://ZengGTTC.github.io/post/guitar-rig5-he-guitar-rig6-yin-se-wen-jian/</id>
