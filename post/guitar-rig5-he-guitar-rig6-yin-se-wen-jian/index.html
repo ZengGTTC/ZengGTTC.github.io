@@ -4,139 +4,80 @@
     <meta charset="utf-8" >
 
 <title>1、guitar rig、BIAX FX2（安装文件、音色文件） | 曾老湿小破站</title>
-<meta name="description" content="一个农村小学老师的吉他之路，吉他教学普度众生">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://ZengGTTC.github.io/favicon.ico?v=1635725543765">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://ZengGTTC.github.io/favicon.ico?v=1635725599864">
 <link rel="stylesheet" href="https://ZengGTTC.github.io/styles/main.css">
 
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="知道什么是Guitar Rig吗？强大的软件效果器！😄，成本极低的吉他练习、演奏、录音方案，只需要一个支持ASIO的声卡即可。（几百块就能买到）
+
+🎸全新外观、新箱头、新效果器，以及新的机器学习技术，建模了大量一流的硬件设备。 无限制的..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://ZengGTTC.github.io">曾老湿小破站</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://ZengGTTC.github.io">
+        <img src="https://ZengGTTC.github.io/images/avatar.png?v=1635725599864" class="site-logo">
+        <h1 class="site-title">曾老湿小破站</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
+          <a href="/" class="site-nav">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="https://ZengGTTC.github.io/post/jing-tong-zhi-ban" class="menu">
-                精通指板
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="https://ZengGTTC.github.io/post/caged-xi-tong" class="menu">
-                CAGED系统
-              </a>
-            
-          </li>
+          <a href="https://ZengGTTC.github.io/post/jing-tong-zhi-ban" class="site-nav">
+            精通指板
+          </a>
         
-          <li>
-            
-              <a href="https://ZengGTTC.github.io/post/ji-ta-shou-gong-ju-zi-liao" class="menu">
-                吉他手工具资料
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="https://ZengGTTC.github.io/post/ping-fan-ji-ta-chu-ji-pian" class="menu">
-                平凡吉他
-              </a>
-            
-          </li>
+          <a href="https://ZengGTTC.github.io/post/caged-xi-tong" class="site-nav">
+            CAGED系统
+          </a>
         
-          <li>
-            
-              <a href="https://ZengGTTC.github.io/post/ban-zou" class="menu">
-                伴奏
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="https://ZengGTTC.github.io/post/ji-ta-shou-gong-ju-zi-liao" class="site-nav">
+            吉他手工具资料
+          </a>
+        
+      
+        
+          <a href="https://ZengGTTC.github.io/post/ping-fan-ji-ta-chu-ji-pian" class="site-nav">
+            平凡吉他
+          </a>
+        
+      
+        
+          <a href="https://ZengGTTC.github.io/post/ban-zou" class="site-nav">
+            伴奏
+          </a>
+        
+      
     </div>
   </div>
-</nav>
-
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>1、guitar rig、BIAX FX2（安装文件、音色文件）</h1>
-            <p class="article-meta">
-              2021-10-07
-              
-            </p>
-            
-              <img src="https://ZengGTTC.github.io/post-images/guitar-rig5-he-guitar-rig6-yin-se-wen-jian.jpg" alt="1、guitar rig、BIAX FX2（安装文件、音色文件）">
-            
-            <div class="post-content">
-              <p>知道什么是Guitar Rig吗？强大的软件效果器！😄，成本极低的吉他练习、演奏、录音方案，只需要一个支持ASIO的声卡即可。（几百块就能买到）</p>
-<!-- more -->
-<p>🎸全新外观、新箱头、新效果器，以及新的机器学习技术，建模了大量一流的硬件设备。 无限制的温暖、颗粒、fuzz、crunch 音色元素，外加上你所需要的一切效果器。</p>
-<p>🎹是一款专为创意制作和快速的音频实验而设计的多效果器式机架与音箱模拟器。 你可以把它想象成你的独家工作室，只是它拥有着更多的空间、更少的笨重箱头以及更强大的灵活性。 通过设计独特的处理信号链，即可定制出独属于你的音色，为你的吉他、贝斯、弦乐、鼓、合成器等素材增添空间、温暖与个性。</p>
-<p>废话就不多说了，给大家带来音色文件和安装文件！</p>
-<p><strong>地址在这里！！</strong>———————— http://noheart.ys168.com    进去以后，找到**“1、guitar rig、BIAX FX2（安装文件、音色文件）”**这个文件夹，点进去下载压缩包解压就可以用了</p>
-
-            </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-            <div class="next-post">
-              <div class="next">
-                下一篇
-              </div>
-              <a href="https://ZengGTTC.github.io/post/hello-gridea/">
-                <h3 class="post-title">
-                  Hello！Guitar Player
-                </h3>
-              </a>
-            </div>
-          
-        </div>
-        
-      </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://ZengGTTC.github.io/images/avatar.png?v=1635725543765" class="no-responsive avatar">
-    <div class="text-muted">一个农村小学老师的吉他之路，吉他教学普度众生</div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
     <div class="social-container">
       
         
@@ -150,102 +91,69 @@
         
       
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
+    <div class="site-description">
+      一个农村小学老师的吉他之路，吉他教学普度众生
     </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://ZengGTTC.github.io/post/3xiao-lin-ke-ji-di-yu-xun-lian-qiao-yi-ji-ta-quan-tao-cdbai-du-pan-xia-zai/">3、小林克己、地狱训练、乔伊吉他（全套CD）百度盘下载</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://ZengGTTC.github.io/post/2nux-mg300yin-se-wen-jian-you-guan-fang-fa-bu-de-ye-you-guo-wai-zi-zhi-yin-se/">2、NUX MG300（音色文件）有官方发布的、也有国外自制音色</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://ZengGTTC.github.io/post/guitar-rig5-he-guitar-rig6-yin-se-wen-jian/">1、guitar rig、BIAX FX2（安装文件、音色文件）</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://ZengGTTC.github.io/post/ban-zou/">伴奏</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://ZengGTTC.github.io/post/ping-fan-ji-ta-chu-ji-pian/">平凡吉他（初级篇）</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://ZengGTTC.github.io/post/ji-ta-shou-gong-ju-zi-liao/">吉他手工具资料</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://ZengGTTC.github.io/post/caged-xi-tong/">CAGED系统</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://ZengGTTC.github.io/post/jing-tong-zhi-ban/">精通指板</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://ZengGTTC.github.io/post/hello-gridea/">Hello！Guitar Player</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://ZengGTTC.github.io/post/about/">Do not give up your dream!!!</a>
-            </li>
-          
-        
-      </ul>
+    <div class="site-footer">
+      QQ：316793632  微信：18989133114  买书交流请联系 | <a class="rss" href="https://ZengGTTC.github.io/atom.xml" target="_blank">RSS</a>
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-       
-    </div>
-    <div class="row">
-      
-    </div>
-  </div>
-  <div class="paper">
-    QQ：316793632  微信：18989133114  买书交流请联系 | <a class="rss" href="https://ZengGTTC.github.io/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
 
 
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">1、guitar rig、BIAX FX2（安装文件、音色文件）</h2>
+            <div class="post-date">2021-10-07</div>
+            
+              <div class="feature-container" style="background-image: url('https://ZengGTTC.github.io/post-images/guitar-rig5-he-guitar-rig6-yin-se-wen-jian.jpg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>知道什么是Guitar Rig吗？强大的软件效果器！😄，成本极低的吉他练习、演奏、录音方案，只需要一个支持ASIO的声卡即可。（几百块就能买到）</p>
+<!-- more -->
+<p>🎸全新外观、新箱头、新效果器，以及新的机器学习技术，建模了大量一流的硬件设备。 无限制的温暖、颗粒、fuzz、crunch 音色元素，外加上你所需要的一切效果器。</p>
+<p>🎹是一款专为创意制作和快速的音频实验而设计的多效果器式机架与音箱模拟器。 你可以把它想象成你的独家工作室，只是它拥有着更多的空间、更少的笨重箱头以及更强大的灵活性。 通过设计独特的处理信号链，即可定制出独属于你的音色，为你的吉他、贝斯、弦乐、鼓、合成器等素材增添空间、温暖与个性。</p>
+<p>废话就不多说了，给大家带来音色文件和安装文件！</p>
+<p><strong>地址在这里！！</strong>———————— http://noheart.ys168.com    进去以后，找到**“1、guitar rig、BIAX FX2（安装文件、音色文件）”**这个文件夹，点进去下载压缩包解压就可以用了</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://ZengGTTC.github.io/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello！Guitar Player
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
 
 
 
